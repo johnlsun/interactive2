@@ -11,87 +11,118 @@ body {
 }
 
 .heart {
-  background-color: red;
+  background-color: #a5220d;
   display: inline-block;
-  height: 30px;
-  margin: 0 10px;
+  height: 130px;
+  margin: 10px 10px;
   position: absolute;
-  left: 390px;
+  left: 309px;
   top: 100px;
   transform: rotate(-45deg);
-  width: 30px;
+  width: 137px;
 }
 
 .heart:before,
 .heart:after {
   content: "";
-  background-color: red;
+  background-color: #a5220d;
   border-radius: 50%;
-  height: 30px;
+  height: 130px;
   position: absolute;
-  width: 30px;
+  width: 134px;
 }
 
 .heart:before {
-  top: -15px;
+  top: -65px;
   left: 0;
 }
 
 .heart:after {
-  left: 15px;
+  left: 65px;
   top: 0;
 }
 
 
 #mat {
-	top: 410px;
-	left: -1px;
-	border-bottom: 146px solid yellow;
-	border-left: 265px solid transparent;
-	border-right: 265px solid transparent;
+	top: 430px;
+	left: 109px;
+	border-bottom: 96px solid #e6f647;
+	border-left: 145px solid transparent;
+	border-right: 145px solid transparent;
 	height: 0;
 	width: 370px;
 	position: absolute;
 }
 
 #bottlebase {
-	height: 200px;
-	width: 100px;
+	height: 104px;
+	width: 60px;
 	border-radius: 10%;
   	background-color: #3d9970;
-	top: 270px;
-	left: 230px;
+	top: 380px;
+	left: 270px;
 	position: absolute;
 }
 
 #bottlemiddle {
-	height: 200px;
-	width: 100px;
+	height: 118px;
+	width: 60px;
 	border-radius: 35%;
   	background-color: #3d9970;
-	top: 220px;
-	left: 230px;
+	top: 340px;
+	left: 270px;
 	position: absolute;
 }
 
 #bottleneck {
 	width: 0;
 	height: 0;
-	top: 160px;
-	left: 233px;
-	border-left: 47px solid transparent;
-	border-right: 47px solid transparent;
-	border-bottom: 100px solid #3d9970;
+	top: 266px;
+	left: 279px;
+	border-left: 21px solid transparent;
+	border-right: 21px solid transparent;
+	border-bottom: 82px solid #3d9970;
 	position: absolute;
 }
 
 #bottletop{
-	height: 100px;
-	width: 28px;
+	height: 38px;
+	width: 18px;
 	border-radius: 10%;
   	background-color: #3d9970;
-	top: 118px;
-	left: 266px;
+	top: 264px;
+	left: 291px;
+	position: absolute;
+}
+
+#foil{
+	height: 35px;
+	width: 18px;
+	border-radius: 10%;
+  	background-color: #ddd;
+	top: 278px;
+	left: 291px;
+	position: absolute;
+}
+
+#foil2{
+	width: 0;
+	height: 0;
+	top: 279px;
+	left: 281px;
+	border-left: 19px solid transparent;
+	border-right: 19px solid transparent;
+	border-bottom: 55px solid #ddd;
+	position: absolute;	
+}
+
+#label{
+	height: 80px;
+	width: 60px;
+	border-radius: 5%;
+  	background-color: #ddd;
+	top: 389px;
+	left: 270px;
 	position: absolute;
 }
 
@@ -103,6 +134,101 @@ body {
 
 }
 
-#goblets{
-
+#goblet1-1{
+	border-bottom: 50px solid #333;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 42px;
+	top: 400px;
+	left: 321px;
+	position: absolute;
+	opacity: 0.2;
 }
+
+#goblet1-2{
+	top: 436px;
+	left: 321px;
+	position: absolute;
+	opacity: 0.6;
+	width: 72px;
+	height: 29px;
+	background: #c3b232;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#goblet1-3{
+	height: 23px;
+	width: 12px;
+	top: 465px;
+	left: 351px;
+	background: #333;
+	position: absolute;
+	opacity: 0.2;	
+}
+
+#goblet1-4{
+	top: 476px;
+	left: 333px;
+	position: absolute;
+	opacity: 0.2;
+	width: 50px;
+	height: 20px;
+	background: #333;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#goblet2-1{
+	border-bottom: 50px solid #333;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 42px;
+	top: 400px;
+	left: 410px;
+	position: absolute;
+	opacity: 0.2;
+}
+
+#goblet2-2{
+	top: 436px;
+	left: 410px;
+	position: absolute;
+	opacity: 0.6;
+	width: 72px;
+	height: 29px;
+	background: #c3b232;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+#goblet2-3{
+	height: 23px;
+	width: 12px;
+	top: 465px;
+	left: 440px;
+	background: #333;
+	position: absolute;
+	opacity: 0.2;	
+}
+
+#goblet2-4{
+	top: 476px;
+	left: 422px;
+	position: absolute;
+	opacity: 0.2;
+	width: 50px;
+	height: 20px;
+	background: #333;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+
+
