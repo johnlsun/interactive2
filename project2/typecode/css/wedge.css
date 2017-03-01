@@ -1,0 +1,103 @@
+body {
+  background-color: #e3c598;
+}
+
+
+.circle {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	top: 100px;
+	margin: auto;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.vertical-line {
+     width: 1px; /* Line width */
+     background-color: black; /* Line color */
+     height: 150px; /* Override in-line if you want specific height. */
+	 position: relative;
+	 margin: auto;
+}
+
+.two {
+	 top: -151px;
+	 width: 1px; /* Line width */
+     background-color: black; /* Line color */
+     height: 150px; /* Override in-line if you want specific height. */
+	 position: relative;
+	 margin: auto;
+	 transform: rotate(45deg);
+}
+
+.three{
+	 top: -301px;
+	 width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 150px; /* Override in-line if you want specific height. */
+	 position: relative;
+	 margin: auto;
+	 transform: rotate(90deg);	
+}
+
+.eleven{
+	 top: -451px;
+	 width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 150px; /* Override in-line if you want specific height. */
+	 position: relative;
+	 margin: auto;
+	 transform: rotate(-45deg);	
+}
+
+.box{
+  position: relative;
+  margin: auto;
+  left: 26px;
+  top: -597px;
+  width: 66px; height:10px;  
+  border:solid 5px #000;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 343%/100px 100px 0 0;
+  transform: rotate(-338deg);
+}
+
+.box2{
+  position: relative;
+  margin: auto;
+  left: 11px;
+  top: -631px;
+  width: 64px; height:167px;  
+  border:solid 5px #000;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 334%/100px 100px 0 0;
+  transform: rotate(-428deg);
+}
+
+.box3{
+  position: relative;
+  margin: auto;
+  left: -4px;
+  top: -759px;
+  width: 147px; height:103px;  
+  border:solid 5px #000;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 69%/100px 100px 0 0;
+  transform: rotate(-428deg);
+}
+
+
+.crust {
+  margin: auto;
+  width: 4px;
+  height: 11px;
+  border-left: 23px solid transparent;
+  border-right: 36px solid transparent;
+  border-bottom: 75px solid #773C21;
+  border-radius: 24%;
+  transform: rotate(34deg);
+  position: relative;
+}

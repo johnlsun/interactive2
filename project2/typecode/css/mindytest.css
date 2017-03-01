@@ -1,0 +1,102 @@
+body {
+  background-color: #e3c598;
+}
+
+.image{
+   background-image: url('octogonletters.jpg');
+   margin: auto;
+   width: 369px; 
+   height: 453px;
+   background-size: contain;
+   background-repeat: none;
+}
+
+
+.i1{
+	 width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 30px; /* Override in-line if you want specific height. */
+	 position: relative;
+	 transform: rotate(90deg);	
+}
+
+.i2{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 38px; /* Override in-line if you want specific height. */
+   left: 133px;
+   top: -482px;
+   position: relative;
+   transform: rotate(90deg);  
+}
+
+.i3{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 36px; /* Override in-line if you want specific height. */
+   left: 133px;
+   top: -519px;
+   position: relative;
+   transform: rotate(180deg);  
+}
+
+.i4{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 37px; /* Override in-line if you want specific height. */
+   left: 133px;
+   top: -555px;
+   position: relative;
+   transform: rotate(135deg);  
+}
+
+
+.i6{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 38px; /* Override in-line if you want specific height. */
+   left: 133px;
+   top: -593px;
+   position: relative;
+   transform: rotate(45deg);     
+}
+
+.e1{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 14px; /* Override in-line if you want specific height. */
+   left: 126px;
+   top: -618px;
+   position: relative;
+   transform: rotate(-66deg); 
+}
+
+.e2{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 14px; /* Override in-line if you want specific height. */
+   left: 126px;
+   top: -618px;
+   position: relative;
+   transform: rotate(-66deg); 
+}
+
+.e5{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 13px; /* Override in-line if you want specific height. */
+   left: 126px;
+   top: -663px;
+   position: relative;
+   transform: rotate(-113deg); 
+}
+
+.e7{
+   width: 1px; /* Line width */
+   background-color: black; /* Line color */
+   height: 15px; /* Override in-line if you want specific height. */
+   left: 140px;
+   top: -604px;
+   position: relative;
+   transform: rotate(68deg);       
+}

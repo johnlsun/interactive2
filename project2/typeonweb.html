@@ -1,0 +1,74 @@
+<!doctype html>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<html lang="en">
+<head>
+
+  <title>
+    Type on the Web
+  </title>
+  <style>
+  
+
+    body {
+        font-size: 3.0em;
+        color: black;
+        font-family: 'Raleway';
+        background-color: #bdc2fa;
+    }
+
+
+    .typeface3{
+        background-image: url('typeface3.png');
+        margin: auto;
+        width: 936px; 
+        height: 496px;
+        background-size: contain;
+        background-repeat: none;
+    }
+
+    .a{
+        position: absolute;
+        left: 300px;
+        top: 400px;
+        z-index: 1000;
+    }    
+
+
+  </style>
+</head>
+
+<script>
+      var canvas = document.getElementById('a');
+      var context = canvas.getContext('2d');
+
+    context.beginPath();
+
+      context.moveTo(188, 153);
+
+      context.bezierCurveTo(188, 158, 174, 162, 167, 162);
+
+      context.bezierCurveTo(124, 158, 133, 104, 167, 104);
+
+      context.bezierCurveTo(190, 105,196, 122, 196, 132);
+
+      context.lineTo(196, 167);
+
+      context.lineWidth = 5;
+      context.strokeStyle = 'red';
+      context.stroke();
+</script>
+
+<body>
+
+<br>
+<br>
+<div class="typeface3"></div>
+
+<div class="letter">
+
+<div class="a">
+<canvas id="2d" width="578" height="300"></canvas>
+</div>
+
+</body>
+</html>
