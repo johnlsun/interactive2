@@ -5,8 +5,8 @@ body {
 .image{
    background-image: url('octogonletters.jpg');
    margin: auto;
-   width: 369px; 
-   height: 453px;
+   width: 829px; 
+   height: 913px;
    background-size: contain;
    background-repeat: none;
 }
