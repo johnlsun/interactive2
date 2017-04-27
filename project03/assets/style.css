@@ -1,0 +1,368 @@
+html {
+  height: 100%;
+}
+
+body {
+  	margin: 0;
+  	padding: 0;
+  	height: 100%;
+    background-color: #F2F2F2;
+    background-image:linear-gradient(#F2F2F2, #CCCCCC);
+}
+
+#content{
+    background-color: transparent;
+    background-image:       linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent);
+  	height:100%;
+  	background-size: 50px 50px;
+}
+
+.momalogo{
+	width: 100px;
+	left: 30px;
+	top: 31px;
+	position: absolute;
+	opacity: .41;
+
+}
+
+.momalogo img {
+	width: 100%;
+}
+
+.box{
+	font-family: lato;
+	font-size: .75em;
+
+}
+
+a:visited {
+    color: #fcf7f6;
+}
+
+.title {
+	font-family: Poppins;
+	font-size: 2.0em;
+	text-align: center;
+	color: #a1a1a1;
+}
+
+.slideshow {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-color: #5E5858;
+	top: 200px;
+}
+
+.tbox {
+	position: absolute;
+	height: 48px;
+	width: 48px;
+}
+
+.one {
+	left: 214px;
+	top: 288px;
+}
+
+.two {
+	left: 789px;
+	top: 363px;
+}
+
+.three {
+	left: 489px;
+	top: 563px;
+}
+
+.four {
+	left: 1214px;
+	top: 488px;
+}
+
+.five {
+	left: 1014px;
+	top: 138px;
+}
+
+.box{
+	height: 24px;
+	width: 72px;
+	background-color: #bbb;
+	position: absolute;
+	cursor: pointer;
+}
+
+#expand{
+	
+}
+
+.reveal1:hover{
+    transform: translate(-110px, 0);
+}
+.reveal2:hover{
+    transform: translate(110px, 0);
+}
+
+.inbox{
+	height: 24px;
+	width: 72px;
+	background-color: #777;
+	position: absolute;
+	transition: all 2s;
+	font-size: 0.2em;
+	font-family: lato;
+
+}
+
+.textbox{
+	font-size: 1.2em;
+	font-family: lato;
+	color: white;
+	position: relative;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	padding: 70px;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+	z-index: 10;
+}
+
+.closebttn{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding: 10px;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	background-color: #000;
+	text-align: center;
+	font-size: 2.0em;
+	font-family: lato;
+	cursor: pointer;
+	/*line-height: 0.7em;*/
+}
+
+.closeicon{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	background-color: white;
+	top: 21px;
+
+}
+.closeicon1{
+	
+	transform: rotate(45deg);
+}
+.closeicon2{
+	
+	transform: rotate(-45deg);
+}
+
+.textbox1{
+	top: -22px;
+
+	/*left: 50%;*/
+	
+}	
+
+.thinblack{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.6;
+	display: none;
+	z-index: 9;
+}
+
+#video1{
+	position: relative;
+	left: 50%;
+	margin-left: -300px;
+	/*width: 400px;
+	height: 300px;*/
+}
+#playbttn{
+	position: absolute;
+	top: 80px;
+	opacity: 0;
+	width: 600px;
+	height: 360px;
+	background-color: red;
+	z-index: 3;
+}
+
+#pausebttn{
+	position: absolute;
+	top: 80px;
+	opacity: 0;
+	width: 600px;
+	height: 360px;
+	background-color: blue;
+	display: none;
+	z-index: 3;
+}
+
+.b1{
+	top: 212px;
+	left: 139px;
+}
+
+.textbox2{
+	top: -50px;
+    font-size: .85em;
+	height: 550px;
+}
+
+.textbox3{
+	top: -22px;
+	/*left: 50%;*/
+	margin: auto;
+	font-size: 0.8em;
+	font-family: lato;
+	cursor: pointer;
+}
+
+.b2{
+	top: 462px;
+	left: 414px;
+
+}
+
+.b3{
+	top: 338px;
+	left: 1213px;
+}
+
+.b4{
+	top: 587px;
+	left: 963px;
+}
+
+.triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 24px solid #bbb;
+	border-right: 24px solid transparent;
+	position: absolute;
+}
+
+.t1{
+	top: 288px;
+	left: 888px;	
+}
+
+.t2{
+	top: 163px;
+	left: 713px;	
+}
+
+.t3{
+	top: 412px;
+	left: 1088px;	
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0%;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 3%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.lboxtxt{
+	font-size: 0.9em;
+    font-family: lato;
+    color: white;
+}
+
+.squares{
+	height: 24px;
+	width: 24px;
+	background-color: #bbb;
+	position: absolute;
+	background-color: #c3c3c3;
+	display: none;
+}
+
+.s1{
+	top: 413px;
+	left: 388px;
+}
+
+.s2{
+	top: 637px;
+	left: 688px;
+}
+
+.s3{
+	top: 513px;
+	left: 288px;
+}
+
+.s4{
+	top: 238px;
+	left: 913px;
+}
+
+.s5{
+	top: 163px;
+	left: 588px;
+}
+
+.s6{
+	top: 588px;
+	left: 63px;
+}
+.s7{
+	top: 338px;
+	left: 863px;
+}
+.s8{
+	top: 463px;
+	left: 713px;
+}
+.s9{
+	top: 113px;
+	left: 463px;
+}
+.s10{
+	top: 538px;
+	left: 1138px;
+}
+.s11{
+	top: 162px;
+	left: 1238px;
+}
