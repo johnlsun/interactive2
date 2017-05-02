@@ -26,163 +26,91 @@ $('.shellsb').click(function() {
      $('.b').toggleClass("appear"); 
 });
 
+$('.shellsc').click(function() {
+     $('.c').toggleClass("appear"); 
+});
 
+$('.shellsd').click(function() {
+     $('.d').toggleClass("appear"); 
+});
 
+$('.shellse').click(function() {
+     $('.e').toggleClass("appear"); 
+});
 
+$('.shellsf').click(function() {
+     $('.f').toggleClass("appear"); 
+});
 
+$('.shellsg').click(function() {
+     $('.g').toggleClass("appear"); 
+});
 
+$('.shellsh').click(function() {
+     $('.h').toggleClass("appear"); 
+});
 
+$('.shellsi').click(function() {
+     $('.i').toggleClass("appear"); 
+});
 
-$('.shellsc').hover(function() {
-     $('.c').fadeIn(); 
+$('.shellsj').click(function() {
+     $('.j').toggleClass("appear"); 
 });
-$('.shellsc').mouseleave(function() {
-     $('.c').fadeOut(); 
+
+$('.shellsk').click(function() {
+     $('.k').toggleClass("appear"); 
 });
-$('.shellsd').hover(function() {
-     $('.d').fadeIn(); 
+$('.shellsl').click(function() {
+     $('.l').toggleClass("appear"); 
 });
-$('.shellsd').mouseleave(function() {
-     $('.d').fadeOut(); 
+$('.shellsm').click(function() {
+     $('.m').toggleClass("appear"); 
 });
-$('.shellse').hover(function() {
-     $('.e').fadeIn(); 
+$('.shellsn').click(function() {
+     $('.n').toggleClass("appear"); 
 });
-$('.shellse').mouseleave(function() {
-     $('.e').fadeOut(); 
+$('.shellso').click(function() {
+     $('.o').toggleClass("appear"); 
 });
-$('.shellsf').hover(function() {
-     $('.f').fadeIn(); 
+$('.shellsp').click(function() {
+     $('.p').toggleClass("appear"); 
 });
-$('.shellsf').mouseleave(function() {
-     $('.f').fadeOut(); 
+$('.shellsq').click(function() {
+     $('.q').toggleClass("appear"); 
 });
-$('.shellsg').hover(function() {
-     $('.g').fadeIn(); 
+$('.shellsr').click(function() {
+     $('.r').toggleClass("appear"); 
 });
-$('.shellsg').mouseleave(function() {
-     $('.g').fadeOut(); 
+$('.shellss').click(function() {
+     $('.s').toggleClass("appear"); 
 });
-$('.shellsh').hover(function() {
-     $('.h').fadeIn(); 
+$('.shellst').click(function() {
+     $('.t').toggleClass("appear"); 
 });
-$('.shellsh').mouseleave(function() {
-     $('.h').fadeOut(); 
+$('.shellsu').click(function() {
+     $('.u').toggleClass("appear"); 
 });
-$('.shellsi').hover(function() {
-     $('.i').fadeIn(); 
+$('.shellsv').click(function() {
+     $('.v').toggleClass("appear"); 
 });
-$('.shellsi').mouseleave(function() {
-     $('.i').fadeOut(); 
+$('.shellsw').click(function() {
+     $('.w').toggleClass("appear"); 
 });
-$('.shellsj').hover(function() {
-     $('.j').fadeIn(); 
+$('.shellsx').click(function() {
+     $('.x').toggleClass("appear"); 
 });
-$('.shellsj').mouseleave(function() {
-     $('.j').fadeOut(); 
+
+$('.shellsy').click(function() {
+     $('.y').toggleClass("appear"); 
 });
-$('.shellsk').hover(function() {
-     $('.k').fadeIn(); 
+$('.shellsz').click(function() {
+     $('.z').toggleClass("appear"); 
 });
-$('.shellsk').mouseleave(function() {
-     $('.k').fadeOut(); 
+$('.shellszero').click(function() {
+     $('.z').toggleClass("appear"); 
 });
-$('.shellsl').hover(function() {
-     $('.l').fadeIn(); 
-});
-$('.shellsl').mouseleave(function() {
-     $('.l').fadeOut(); 
-});
-$('.shellsm').hover(function() {
-     $('.m').fadeIn(); 
-});
-$('.shellsm').mouseleave(function() {
-     $('.m').fadeOut(); 
-});
-$('.shellsn').hover(function() {
-     $('.n').fadeIn(); 
-});
-$('.shellsn').mouseleave(function() {
-     $('.n').fadeOut(); 
-});
-$('.shellso').hover(function() {
-     $('.o').fadeIn(); 
-});
-$('.shellso').mouseleave(function() {
-     $('.o').fadeOut(); 
-});
-$('.shellsp').hover(function() {
-     $('.p').fadeIn(); 
-});
-$('.shellsp').mouseleave(function() {
-     $('.p').fadeOut(); 
-});
-$('.shellsq').hover(function() {
-     $('.q').fadeIn(); 
-});
-$('.shellsq').mouseleave(function() {
-     $('.q').fadeOut(); 
-});
-$('.shellsr').hover(function() {
-     $('.r').fadeIn(); 
-});
-$('.shellsr').mouseleave(function() {
-     $('.r').fadeOut(); 
-});
-$('.shellss').hover(function() {
-     $('.s').fadeIn(); 
-});
-$('.shellss').mouseleave(function() {
-     $('.s').fadeOut(); 
-});
-$('.shellst').hover(function() {
-     $('.t').fadeIn(); 
-});
-$('.shellst').mouseleave(function() {
-     $('.t').fadeOut(); 
-});
-$('.shellsu').hover(function() {
-     $('.u').fadeIn(); 
-});
-$('.shellsu').mouseleave(function() {
-     $('.u').fadeOut(); 
-});
-$('.shellsv').hover(function() {
-     $('.v').fadeIn(); 
-});
-$('.shellsv').mouseleave(function() {
-     $('.v').fadeOut(); 
-});
-$('.shellsw').hover(function() {
-     $('.w').fadeIn(); 
-});
-$('.shellsw').mouseleave(function() {
-     $('.w').fadeOut(); 
-});
-$('.shellsx').hover(function() {
-     $('.x').fadeIn(); 
-});
-$('.shellsx').mouseleave(function() {
-     $('.x').fadeOut(); 
-});
-$('.shellsy').hover(function() {
-     $('.y').fadeIn(); 
-});
-$('.shellsy').mouseleave(function() {
-     $('.y').fadeOut(); 
-});
-$('.shellsz').hover(function() {
-     $('.z').fadeIn(); 
-});
-$('.shellsz').mouseleave(function() {
-     $('.z').fadeOut(); 
-});
-$('.shellszero').hover(function() {
-     $('.zero').fadeIn(); 
-});
-$('.shellszero').mouseleave(function() {
-     $('.zero').fadeOut(); 
-});
+
 $('.shellsone').hover(function() {
      $('.one').fadeIn(); 
 });

@@ -244,91 +244,298 @@ body {
 }
 
 
-
-
-
-
-
-
-
 .c{
    display: none;
+   opacity: 1;
+   
+}
+.shellsc:hover .ca{
+	opacity: 1;
+}
+.ca{
+   opacity: 0;
+   transition: all 0.2s;
 }
 
 .d{
-display: none;
-
+   display: none;
+   opacity: 1;
+   
+}
+.shellsd:hover .da{
+	opacity: 1;
+}
+.da{
+   opacity: 0;
+   transition: all 0.2s;
 }
 
 .e{
-display: none;
+   display: none;
+   opacity: 1;
+   
+}
+.shellse:hover .ea{
+	opacity: 1;
+}
+.ea{
+   opacity: 0;
+   transition: all 0.2s;
 }
 
 .f{
-display: none;
+   display: none;
+   opacity: 1;
+   
 }
+.shellsf:hover .fa{
+	opacity: 1;
+}
+.fa{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .g{
-display: none;
+   display: none;
+   opacity: 1;
+   
 }
+.shellsg:hover .ga{
+	opacity: 1;
+}
+.ga{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .h{
-display: none;
+   display: none;
+   opacity: 1;
+   
 }
+.shellsh:hover .ha{
+	opacity: 1;
+}
+.ha{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .i{
-display: none;
+   display: none;
+   opacity: 1;
 }
+.shellsi:hover .ia{
+	opacity: 1;
+}
+.ia{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .j{
-display: none;
+   display: none;
+   opacity: 1;
 }
+.shellsj:hover .ja{
+	opacity: 1;
+}
+.ja{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .k{
-display: none;
+   display: none;
+   opacity: 1;
 }
+.shellsk:hover .ka{
+	opacity: 1;
+}
+.ka{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .l{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsl:hover .la{
+	opacity: 1;
+}
+.la{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .m{
-display: none;
+   display: none;
+   opacity: 1;
 }
+.shellsm:hover .ma{
+	opacity: 1;
+}
+.ma{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .n{
-display: none;
+   display: none;
+   opacity: 1;
 }
+.shellsn:hover .na{
+	opacity: 1;
+}
+.na{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .o{
-display: none;
+   display: none;
+   opacity: 1;
 }
+.shellso:hover .oa{
+	opacity: 1;
+}
+.oa{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
 .p{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsp:hover .pa{
+	opacity: 1;
+}
+.pa{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .q{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsq:hover .qa{
+	opacity: 1;
+}
+.qa{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .r{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsr:hover .ra{
+	opacity: 1;
+}
+.ra{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .s{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellss:hover .sa{
+	opacity: 1;
+}
+.sa{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .t{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellst:hover .ta{
+	opacity: 1;
+}
+.ta{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .u{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsu:hover .ua{
+	opacity: 1;
+}
+.ua{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .v{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsv:hover .va{
+	opacity: 1;
+}
+.va{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .w{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsw:hover .wa{
+	opacity: 1;
+}
+.wa{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .x{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsx:hover .xa{
+	opacity: 1;
+}
+.xa{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .y{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsy:hover .ya{
+	opacity: 1;
+}
+.ya{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .z{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellsz:hover .za{
+	opacity: 1;
+}
+.za{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .zero{
-display: none;
+   display: none;
+   opacity: 1;
+}
+.shellszero:hover .zeroa{
+	opacity: 1;
+}
+.zeroa{
+   opacity: 0;
+   transition: all 0.2s;
 }
 .one{
 display: none;
