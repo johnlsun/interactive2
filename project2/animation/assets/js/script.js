@@ -16,19 +16,22 @@
 // });
 
 
-$('.shellsa').hover(function() {
-     $('.a').fadeIn(); 
-});
-$('.shellsa').mouseleave(function() {
-     $('.a').fadeOut(); 
+
+$('.shellsa').click(function() {
+     $('.a').toggleClass("appear"); 
 });
 
-$('.shellsb').hover(function() {
-     $('.b').fadeIn(); 
+
+$('.shellsb').click(function() {
+     $('.b').toggleClass("appear"); 
 });
-$('.shellsb').mouseleave(function() {
-     $('.b').fadeOut(); 
-}); 
+
+
+
+
+
+
+
 
 $('.shellsc').hover(function() {
      $('.c').fadeIn(); 

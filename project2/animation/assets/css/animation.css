@@ -1,5 +1,5 @@
 body {
-  background-color: #5d5d5d;
+  background: linear-gradient(to top, red, yellow);
 }
 
 /*.box{
@@ -213,14 +213,44 @@ body {
    
    
 }
+
+
 .a{
    display: none;
+   opacity: 1;
    
 }
+.shellsa:hover .aa{
+	opacity: 1;
+}
+.aa{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
+
+
 .b{
    display: none;
 
 }
+
+.shellsb:hover .ba{
+	opacity: 1;
+}
+.ba{
+   opacity: 0;
+   transition: all 0.2s;
+}
+
+
+
+
+
+
+
+
+
 .c{
    display: none;
 }
